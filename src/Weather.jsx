@@ -2,7 +2,7 @@ import { useState, useRef, useEffect} from "react";
 import './Weather.css';
 import cities from './Data/Cities.json'
 
-const API_KEY = "0ab16297d6fba75917c20dc1a5d5192e";
+const API_KEY = "YOUR_APP_KEY";
 
 const Weather = () => {
 	const [city, setCity] = useState("");
